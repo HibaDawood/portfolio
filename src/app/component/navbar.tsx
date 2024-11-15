@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-
 const Navbar = () => {
   return (
     <div className="bg-red-200 z-10 sticky top-0">
@@ -19,8 +18,10 @@ const Navbar = () => {
 
             <span className="ml-3 text-xl">Hiba Muhammad dawood</span>
           </div>
-          <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base
-           justify-center font-bold">
+          <nav
+            className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base
+           justify-center font-bold"
+          >
             <Link href={"/"} className="mr-5 hover:text-red-900">
               Home
             </Link>
@@ -33,23 +34,11 @@ const Navbar = () => {
             <Link href={"#Project"} className="mr-5 hover:text-red-900">
               Projects
             </Link>
-            <Link href={"#Contact"} className="mr-5 hover:text-red-900">
+            <Link href={"#Contact"} className="-mr-14 hover:text-red-900">
               Contact
             </Link>
           </nav>
-          <Link href={"#"}>
-            <button
-              className="inline-flex items-center bg-red-300 border-0 py-1 px-3
-               focus:outline-none
-           hover:bg-red-400 rounded font-medium text-base mt-4 md:mt-0 "
-            >
-              
-              Download CV
-              <div className="text-xl ml-2">
-                
-              </div>
-            </button>
-            </Link>
+         
         </div>
       </header>
     </div>
