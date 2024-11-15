@@ -34,7 +34,7 @@ const Navbar = () => {
             <Link href={"#Project"} className="mr-5 hover:text-red-900">
               Projects
             </Link>
-            <Link href={"#Contact"} className="-mr-14 hover:text-red-900">
+            <Link href={"#Contact"} className="-mr-5 hover:text-red-900">
               Contact
             </Link>
           </nav>
